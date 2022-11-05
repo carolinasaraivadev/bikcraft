@@ -3,10 +3,6 @@
 }
 
 .header {
-  max-width: 1200px;
-  box-sizing: border-box;
-  margin: 0px auto;
-  padding: 1.2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -19,12 +15,12 @@
 }
 
 .header-menu a {
+  color: inherit;
   display: inline-block;
-  padding: 1rem 0;
-  color: #ffffff;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
+  padding: 1rem 0;
   font-size: 1.2rem;
   line-height: 2rem;
   position: relative;
